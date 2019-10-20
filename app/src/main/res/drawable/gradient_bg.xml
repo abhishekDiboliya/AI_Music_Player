@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  created by Abhishek Diboliya -->
+
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:useLevel="false"
+    >
+
+    <gradient
+        android:angle="180"
+        android:startColor="@color/color1"
+        android:centerColor="@color/color2"
+        android:endColor="@color/color3"
+
+        />
+
+
+
+</shape>

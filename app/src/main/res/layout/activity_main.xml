@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--  created by Abhishek Diboliya -->
+<RelativeLayout
+    android:id="@+id/parent_relative_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg2"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/upperLayout"
+        android:layout_width="match_parent"
+        android:layout_height="330dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            />
+        <TextView
+            android:id="@+id/songName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/color1"
+            android:layout_margin="7dp"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lowerLyout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upperLayout"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        android:gravity="center"
+        >
+
+        <ImageView
+        android:id="@+id/previous_btn"
+        android:src="@drawable/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        />
+        <ImageView
+            android:id="@+id/pause_btn"
+            android:src="@drawable/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/previous_btn"
+            android:layout_marginRight="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/next_btn"
+            android:src="@drawable/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/pause_btn"
+            />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hold Here And Say Voice Command !"
+        android:textColor="@android:color/black"
+        android:layout_above="@id/voiceEnabledbtn"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/voiceEnabledbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:text="@string/enablebtn"
+        android:background="@drawable/gradient_bg"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:shadowColor="@android:color/background_dark"
+        android:textAllCaps="false"
+        />
+
+
+
+</RelativeLayout>

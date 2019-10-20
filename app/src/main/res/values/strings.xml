@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AI Music Player</string>
+    <string name="enablebtn">Voice Enabled Mode - ON</string>
+</resources>
