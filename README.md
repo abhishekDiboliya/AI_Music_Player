@@ -13,4 +13,4 @@ we use on touch voice listeners for taking the input of users voice then we matc
 
 ## Screenshots
 
-[](Screenshot_20191020-182046.png) [](Screenshot_20191020-182116.png)
+[](Screenshot_20191020-182046.png)
