@@ -4,7 +4,7 @@ This Application baced on the artificial intelligence , in this app user can pla
 we use on touch voice listeners for taking the input of users voice then we match the output and process the result, it has very simple user interface and easy to use for eveyone.
 
 
-##Some Basic Commands
+## Some Basic Commands
 - Play the song.
 - pause the song.
 - Play nxt song.
