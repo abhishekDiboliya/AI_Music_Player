@@ -7,7 +7,7 @@ we use on touch voice listeners for taking the input of users voice then we matc
 ## Some Basic Commands
 - Play the song.
 - pause the song.
-- Play nxt song.
+- Play next song.
 - Play previous song.
 
 
